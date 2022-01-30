@@ -1,0 +1,393 @@
+*{
+padding: 5px;
+font-size: 16px;
+}
+
+body{
+    background-color: #102E3C;
+    color: whitesmoke;
+}
+.backgroundColor{
+    background-color: #102E3C;
+}
+.navbar{
+    /* padding: 20px 0 20px 0; */
+}
+.header{
+    border-bottom: 1px solid whitesmoke;
+}
+.logo_img{
+    max-width: 20em;
+}
+.searchDiv{
+    width: 100%;
+}
+#search{
+    background: #6493A9;
+}
+.header_background {
+	background-color: red;
+}
+h1, h2, h3, h4{
+    margin: 0;
+}
+::placeholder {
+    color: rgb(59, 59, 59);
+  }
+.hideAll {
+    display: none;
+}
+
+.splash {
+    display: block;
+    cursor: pointer;
+}
+.moviePagePoster{
+    padding: 0 !important;
+}
+#movie_data_1{
+    float: left;
+    height:min-content;
+    margin-right: 1em;
+    width: 70%;
+    padding-right: 2em;
+}
+#movie_cast_title{
+    clear: both;
+}
+.castHeader{
+    margin-top: 1em;
+}
+.video{
+    background-color:black;
+}
+.videoContainer{
+    padding: 0 !important;
+}
+/* SAMMY */
+.movie{
+    cursor: pointer;
+}
+.actor{
+    cursor: pointer;
+}
+/* SAMMY END*/
+
+article{
+    display: flex !important;
+    padding-left: 0;
+}
+
+.card{
+    background-color: transparent;
+    color:whitesmoke;
+    border: none;
+    margin:0.3em;
+    margin-left: 0;
+    margin-right: 0.6em
+}
+
+.movie_card{
+    min-height: 18.0em;
+}
+.image_card{
+    min-height: 5.0em;
+}
+.movieMain{
+    padding: 0 !important;
+}
+.movie_poster{
+    min-height: 15em;
+    overflow: hidden;
+    text-align: center;
+    height: 15em;
+    width: 10em;
+    min-width: 10em;
+    max-width: 28em;
+    margin-bottom: 0.75em
+}
+.movie_poster_hero{
+    min-height: 18em;
+    overflow: hidden;
+    text-align: center;
+    height: 18em;
+    width: 100%;
+    height: 330px;
+    min-width: 12em;
+    margin-bottom: 1em;
+    padding-right: 1em;
+}
+.movie_poster_img{
+    min-width: 10em;
+    height: 100%;
+    padding: 0;
+    width: 100%;
+}
+.actor_photo{
+    min-height: 15em;
+    overflow: hidden;
+    text-align: center;
+    height: 15em;
+    width: 10em;
+    min-width: 10em;
+    margin-bottom: 0.5em;
+}
+
+#actor_photo_img {
+    width: 25%;
+    float: left;
+    margin-right: 1em;
+}
+.actor_photo_img{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+.movie_image{
+    height: 15em;
+    overflow: hidden;
+    text-align: center;
+}
+
+.movie_image_img{
+    height: 100%;
+}
+
+.gray {
+    background-color: lightgray;
+}
+tbody tr:nth-child(odd) {
+    background-color:  #102E3C;
+}
+
+tbody tr:nth-child(even) {
+    background-color:  #323d42;
+}
+/* .gray-1 {
+    min-height: 18.0em;
+    background-color: lightgray;
+}
+.gray-2 {
+    min-height: 12.0em;
+    background-color: lightgray;
+} */
+
+/* .gray-3 {
+    min-height: 8.0em;
+    background-color: lightgray;
+} */
+
+.gray-4 {
+    background-color: gray;
+}
+
+.gray-5 {
+    min-height: 22.0em;
+    background-color: gray;
+}
+.actor_photo_page{
+    width: 100%;
+    height: 100%;
+}
+.movie_details{
+    font-size: 0.75rem;
+    margin: 0;
+    padding: 0;
+    max-width: 90%;
+}
+.actor_name{
+    font-size: 0.80rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+.character_name{
+    font-size: 0.75rem;
+    margin: 0;
+    padding: 0;
+    max-width: 90%;
+}
+.movie_name{
+    font-size: 0.80rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    max-width: 90%;
+}
+table {
+    table-layout: auto;
+    border-collapse: collapse;
+    width: 100%;
+    background-color:  #102E3C;
+    color: whitesmoke;
+    text-align: left;
+    padding: 10px
+}
+.movie_prop{
+    color:white;;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+.movie_prop_value{
+    font-size: 0.80rem;
+    margin: 0;
+    padding: 0;
+}
+#page_title{
+    font-size: 3rem;
+    font-weight: bold;
+}
+footer{
+    margin-top: 5rem;
+    background-color: #102E3C;
+    color: whitesmoke;
+    padding: 2rem;
+    border-top: 1px solid whitesmoke;
+}
+.footer_links{
+    list-style: none;
+    gap: 10px;
+}
+.footer_links li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.title{
+    margin-top: 30px;
+    padding: 0;
+}
+.slick-prev, .slick-next {
+    top: 40% !important;
+}
+.movieImagesContent .slick-prev, .movieImagesContent .slick-next, .actorPhotosContents .slick-prev, .actorPhotosContents .slick-next{
+    top: 50% !important;
+}
+.slick-prev {
+    left: -50px !important;
+  }
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: yellow;
+}
+.slick-dots li button:before {
+    color: whitesmoke;
+}
+.reviewStar{
+    color: yellow;
+    font-size: 0.9em;
+}
+.place-center{
+    display: flex;
+    place-content: center;
+}
+
+/* SEARCH */
+
+.search-container {
+    position: absolute;
+    z-index: 1000;
+    padding: 1.0rem;
+    background: rgba(54,73,84, 0.95);
+    width: min-content;
+    min-width: 250px;
+}
+.search-image {
+    float: left;
+    width: 25%;
+    overflow: hidden;
+}
+.search-margin{
+    display: flex;
+    place-items: center;
+}
+.search-image img {
+    width: 100%;
+}
+.search-text {
+    width: 70%;
+    margin-left: 1em;
+}
+.search-text p{
+    margin-top:10%;
+}
+.clearFloat {
+    float: none;
+    clear: both;
+}
+@media screen and (max-width: 800px) {
+    *{
+        font-size: 20px;
+        /* padding: 10px; */
+    }
+    .gray-1 {
+        min-height: 14.0em;
+    }
+    .gray-2 {
+        min-height: 10.0em;
+        background-color: lightgray;
+    }
+    .logo_img{
+        max-width: 15em;
+    }
+    #movie_data_1{
+        width: 100%;
+    }
+    #movie_page_title{
+        margin-bottom: 0.5rem;
+        font-size: 3rem;
+    }
+    h4{
+        font-size: 2rem;
+    }
+    #actor_photo_img {
+        width: 40%;
+    }
+    footer {
+        padding: 0.3em;
+    }
+    .slick-arrow{
+        display: none !important;
+    }
+    
+}
+
+@media screen and (max-width: 568px) {
+    #movie_page_title{
+        margin-bottom: 0.5rem;
+        font-size: 3rem;
+    }
+    h4{
+        font-size: 2rem;
+    }
+    .movie_card {
+        min-height: 5em;
+    }
+    .movie_poster {
+        min-height: 12em;
+        height: 12em;
+        width: 8em;
+        min-width: 8em;
+    }
+    .actor_photo {
+        min-height: 12em;
+        height: 12em;
+        width: 8em;
+        min-width: 8em;
+    }
+    .movie_poster_hero {
+        text-align: left;
+        height: 15em;
+    }
+    .movie_poster_img {
+        min-width: 5em;
+        padding: 0;
+        height: 100%;
+    }
+    #actor_photo_img {
+        width: 50%;
+    }
+    .footer_links li a {
+        font-size: 0.85rem;
+    }
+}
